@@ -4,6 +4,7 @@ This repository implements an autonomous stock trading application that uses Lon
 1. [Overview](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models/tree/main?tab=readme-ov-file#overview)
 2. [Requirements](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models/tree/main?tab=readme-ov-file#requirements)
 3. [Results](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models/tree/main?tab=readme-ov-file#results)
+   - [Model Evaluation Results](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models/tree/main?tab=readme-ov-file#model-evaluation-results)
    - [Predictions](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models?tab=readme-ov-file#predictions)
    - [Trading Results](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models?tab=readme-ov-file#trading-results)
 5. [Acknowledgements](https://github.com/BurakAhmet/Autonomous-Stock-Trading-Using-LSTM-Models/tree/main?tab=readme-ov-file#acknowledgements)
