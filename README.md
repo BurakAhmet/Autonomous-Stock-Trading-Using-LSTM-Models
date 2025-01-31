@@ -29,7 +29,7 @@ You can download the necessary libraries from the [requirements.txt](https://git
 | THYAO  |  0.3064 |  0.2622 |  0.5120 |   
 | AEFES  | 0.4566  |  0.5370 |  0.7328 |  
 |  AFYON | 0.1074  | 0.0239  |  0.1547 |   
-
+---
 ### Predictions
 **Prediction for AEFES**
 
@@ -47,7 +47,7 @@ You can download the necessary libraries from the [requirements.txt](https://git
 
 ![image](https://github.com/user-attachments/assets/1c7ba1b1-9166-4443-b653-d650d90f7ff3)
 
-
+---
 ### Trading Results
 **Trading of ASELS**
 
