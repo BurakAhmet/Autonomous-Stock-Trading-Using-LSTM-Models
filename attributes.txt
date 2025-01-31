@@ -1,0 +1,137 @@
++--+------------------------+-------------------------------------------------+
+|# | COLUMN                 |DESCRIPTION                                      |
++--+------------------------+-------------------------------------------------+
+|1 |TRADE DATE              |Date of the trading day                          |
++--+------------------------+-------------------------------------------------+
+|2 |INSTRUMENT SERIES CODE  |Serial code is contained in the instrument code  |
+|  |                        |in this field                                    |
++--+------------------------+-------------------------------------------------+
+|3 |INSTRUMENT NAME         |Long ID                                          |
++--+------------------------+-------------------------------------------------+
+|4 |MARKET SEGMENT          |BIST Stars                              Z        |
+|  |                        |Collective and Structured Products      K        |
+|  |                        |BIST Emerging Companies                 G        |
+|  |                        |Pre-Market Trading Platform             S        |
+|  |                        |Watchlist                               W        |
+|  |                        |BIST Main                               N        |
+|  |                        |BIST SubMarket                          T        |
++--+------------------------+-------------------------------------------------+
+|5 |MARKET                  |Pay – Pay Ana Pazarı (MainSptEQ)       MSPOT     |
+|  |                        |Pay – Birincil Piyasa (Prim Mkt)       PMRKT     |
+|  |                        |Pay – Temerrüt Pazarı (Buyin Mk)       BUYIN     |
+|  |                        |Pay – Birincil Tek Trf (PrmMktOneS)    PMOSA     |
++--+------------------------+-------------------------------------------------+
+|6 |INSTRUMENT TYPE         |i.e.: BUYINEQT, MSPOTECW, MSPOTRGT, MSPOTETF etc.|
+|  |                        |give information on the type of related          |
+|  |                        |instrument                                       |
++--+------------------------+-------------------------------------------------+
+|7 |INSTRUMENT CLASS        |i.e.: BUYINEQTGARAN, MSPOTEQTGARAN etc. give     |
+|  |                        |information as to which class related instrument |
+|  |                        |belongs to                                       |
++--+------------------------+-------------------------------------------------+
+|8 |MARKET MAKER            |Not available     0                              |
+|  |                        |Available         1                              |
++--+------------------------+-------------------------------------------------+
+|9 |BIST 100 INDEX          |Not available     0                              |
+|  |                        |Available         1                              |
++--+------------------------+-------------------------------------------------+
+|10|BIST 30 INDEX           |Not available     0                              |
+|  |                        |Available         1                              |
++--+------------------------+-------------------------------------------------+
+|11|GROSS SETTLEMENT        |1: Gross Settlement                              |
++--+------------------------+-------------------------------------------------+
+|12|SUSPENDED               |Not Suspended     0                              |
+|  |                        |Suspended         1                              |
++--+------------------------+-------------------------------------------------+
+|13|OPENING PRICE           |First price of day                               |
++--+------------------------+-------------------------------------------------+
+|14|OPENING SESSION PRICE   |Price that executed in opening session           |
++--+------------------------+-------------------------------------------------+
+|15|LOWEST PRICE            |Lowest price of the day                          |
++--+------------------------+-------------------------------------------------+
+|16|HIGHEST PRICE           |Highest price of the day                         |
++--+------------------------+-------------------------------------------------+
+|17|CLOSING PRICE           |Last price of the day                            |
++--+------------------------+-------------------------------------------------+
+|18|CLOSING SESSION PRICE   |Price that executed in closing session           |
++--+------------------------+-------------------------------------------------+
+|19|CHANGE TO PREVIOUS      |% change of the closing price relative to        |
+|  |CLOSING (%)             |previous trading day’s closing price             |
++--+------------------------+-------------------------------------------------+
+|20|REMAINING BID           |Best bid price                                   |
++--+------------------------+-------------------------------------------------+
+|21|REMAINING ASK           |Best offer price                                 |
++--+------------------------+-------------------------------------------------+
+|22|VWAP                    |Daily volume weighted average price              |
++--+------------------------+-------------------------------------------------+
+|23|TOTAL TRADED VALUE      |Total traded value of related equity             |
++--+------------------------+-------------------------------------------------+
+|24|TOTAL TRADED VOLUME     |Total traded volume of related equity            |
++--+------------------------+-------------------------------------------------+
+|25|TOTAL NUMBER OF         |Total number of contracts traded of related      |
+|  |CONTRACTS               |equity                                           |
++--+------------------------+-------------------------------------------------+
+|26|REFERENCE PRICE         |The price that announced by Exchange for market  |
+|  |                        |insight, not base for limits                     |
++--+------------------------+-------------------------------------------------+
+|27|TRADED VALUE AT OPENING |Total traded value of related equity at opening  |
+|  |SESSION                 |session within trading day                       |
++--+------------------------+-------------------------------------------------+
+|28|TRADED VOLUME AT OPENING|Total traded volume of related equity at opening |
+|  |SESSION                 |session within trading day                       |
++--+------------------------+-------------------------------------------------+
+|29|NUMBER OF CONTRACTS AT  |Total number of contracts traded of related      |
+|  |OPENING SESSION         |equity at opening session within trading day     |
++--+------------------------+-------------------------------------------------+
+|30|TRADED VALUE AT CLOSING |Total traded value of related equity at closing  |
+|  |SESSION                 |session within trading day                       |
++--+------------------------+-------------------------------------------------+
+|31|TRADED VOLUME AT CLOSING|Total traded volume of related equity at closing |
+|  |SESSION                 |session within trading day                       |
++--+------------------------+-------------------------------------------------+
+|32|NUMBER OF CONTRACTS AT  |Total number of contracts traded of related      |
+|  |CLOSING SESSION         |equity at closing session within trading day     |
++--+------------------------+-------------------------------------------------+
+|33|TRADED VALUE OF TRADES  |Total traded value of related equity at closing  |
+|  |AT CLOSING PRICE        |price within trading day                         |
++--+------------------------+-------------------------------------------------+
+|34|TRADED VOLUME OF TRADES |Total traded volume of related equity at closing |
+|  |AT CLOSING PRICE        |price within trading day                         |
++--+------------------------+-------------------------------------------------+
+|35|NUMBER OF CONTRACTS OF  |Total number of contracts traded of related      |
+|  |TRADES AT CLOSING PRICE |equity at closing price within trading day       |
++--+------------------------+-------------------------------------------------+
+|36|LOWEST SHORT SALE PRICE |Lowest price of trades that executed from short  |
+|  |                        |sale order within trading day                    |
++--+------------------------+-------------------------------------------------+
+|37|HIGHEST SHORT SALE PRICE|Highest price of trades that executed from short |
+|  |                        |sale order within trading day                    |
++--+------------------------+-------------------------------------------------+
+|38|SHORT SALE VWAP         |VWAP of trades that executed from short sale     |
+|  |                        |order within trading day                         |
++--+------------------------+-------------------------------------------------+
+|39|TRADED VALUE OF SHORT   |Traded value of short sale trades within trading |
+|  |SALE TRADES             |day                                              |
++--+------------------------+-------------------------------------------------+
+|40|TRADED VOLUME OF SHORT  |Traded volume of short sale trades within trading|
+|  |SALE TRADES             |day                                              |
++--+------------------------+-------------------------------------------------+
+|41|NUMBER OF CONTRACTS OF  |Number of contracts of short sale trades within  |
+|  |SHORT SALE TRADES       |trading day                                      |
++--+------------------------+-------------------------------------------------+
+|42|LOWEST TRADE REPORT     |Lowest trade report price within trading day     |
+|  |PRICE                   |trading day                                      |
++--+------------------------+-------------------------------------------------+
+|43|HIGHEST TRADE REPORT    |Highest trade report price within trading day    |
+|  |PRICE                   |                                                 |
++--+------------------------+-------------------------------------------------+
+|44|TRADE REPORT VWAP       |VWAP trade reports within trading day            |
++--+------------------------+-------------------------------------------------+
+|45|TRADE REPORT TRADED     |Total traded value of trade reports within       |
+|  |VALUE                   |
++--+------------------------+-------------------------------------------------+
+|46|TRADE REPORT TRADED     |Total traded volume of trade reports within      |
+|  |VOLUME                  |trading day                                      |
++--+------------------------+-------------------------------------------------+
+|47|NUMBER OF TRADE REPORTS |Total number of trade reports within trading day |
++--+------------------------+-------------------------------------------------+
